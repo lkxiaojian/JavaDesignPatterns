@@ -1,6 +1,5 @@
 package com.xiaojian.javadesignpatterns.factoryPattern.MoreFactory;
 
-import com.xiaojian.javadesignpatterns.factoryPattern.simple.BlackHuMan;
 import com.xiaojian.javadesignpatterns.factoryPattern.simple.HuMan;
 import com.xiaojian.javadesignpatterns.factoryPattern.simple.WhiteHuMan;
 

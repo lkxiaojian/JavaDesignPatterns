@@ -15,7 +15,6 @@ public class HuManFactory  {
             e.printStackTrace();
             return null;
         }
-
         return (T)huMan;
     }
 }
