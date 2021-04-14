@@ -3,9 +3,9 @@ package com.xiaojian.javadesignpatterns.singleton;
 /**
  * create_time : 21-4-13 上午10:39
  * author: lk
- * description： Singleton   单例的几种实现方式
+ * description： Singleton   单例模式
  */
-public class Singleton {
+public class SingletonClient {
 
     public void doubleCheckedLockingLazySingleton(){
         DoubleCheckedLockingLazySingleton instance = DoubleCheckedLockingLazySingleton.getInstance();
