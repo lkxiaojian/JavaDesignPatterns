@@ -3,7 +3,7 @@ package com.xiaojian.javadesignpatterns.abstractFactoryPattern;
 /**
  * create_time : 21-4-14 上午10:20
  * author: lk
- * description： AbstractClient 抽象工厂模式
+ * description： AbstractClient
  */
 public class AbstractClient {
     public void createHuMan() {
