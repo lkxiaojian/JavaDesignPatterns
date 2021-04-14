@@ -3,7 +3,7 @@ package com.xiaojian.javadesignpatterns.factoryPattern.simple;
 /**
  * create_time : 21-4-13 下午3:35
  * author: lk
- * description： SimpleClient 简单工厂
+ * description： SimpleClient 简单工厂模式
  */
 public class SimpleClient {
     public void createHuMan(){
