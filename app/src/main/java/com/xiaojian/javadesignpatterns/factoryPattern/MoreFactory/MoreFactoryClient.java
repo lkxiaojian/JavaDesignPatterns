@@ -5,7 +5,7 @@ import com.xiaojian.javadesignpatterns.factoryPattern.simple.HuMan;
 /**
  * create_time : 21-4-13 下午3:42
  * author: lk
- * description： MoreFactoryClient
+ * description： MoreFactoryClient 多级工厂模式
  */
 public class MoreFactoryClient {
 
