@@ -5,16 +5,17 @@ package com.xiaojian.javadesignpatterns.factoryPattern.simple;
  * author: lk
  * description： HuManFactory
  */
-public class HuManFactory  {
+public class HuManFactory {
 
-    public  static <T extends HuMan> T createHuMan(Class<T> tClass) {
-        HuMan huMan=null;
+    public static <T extends HuMan> T createHuMan(Class<T> tClass) {
+        HuMan huMan = null;
         try {
-             huMan = (HuMan) Class.forName(tClass.getName()).newInstance();
+            huMan =  tClass.newInstance();
+//          huMan = (HuMan) Class.forName(tClass.getName()).newInstance();
         } catch (Exception e) {
             e.printStackTrace();
             return null;
         }
-        return (T)huMan;
+        return (T) huMan;
     }
 }
