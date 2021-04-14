@@ -8,5 +8,6 @@ import com.xiaojian.javadesignpatterns.factoryPattern.simple.HuMan;
  * description： AbstractHuManFactory 多工厂模式的抽象工厂类
  */
 public abstract  class AbstractHuManFactory {
+
     public abstract  HuMan createHuMan();
 }
