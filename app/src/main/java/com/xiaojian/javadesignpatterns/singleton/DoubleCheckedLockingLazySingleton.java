@@ -16,7 +16,7 @@ public class DoubleCheckedLockingLazySingleton {
      */
     private DoubleCheckedLockingLazySingleton() {
     }
-    private static DoubleCheckedLockingLazySingleton doubleCheckedLockingLazySingleton;
+    private volatile static DoubleCheckedLockingLazySingleton doubleCheckedLockingLazySingleton;
     public static synchronized DoubleCheckedLockingLazySingleton getInstance() {
         if (doubleCheckedLockingLazySingleton == null) {
             synchronized (DoubleCheckedLockingLazySingleton.class) {
